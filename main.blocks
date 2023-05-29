@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="FxUA=9NX:Z~sBAEV(9h8">hands_on</variable></variables><block type="pxt-on-start" id="pY+}K!]vl=O|STdj#G+o" x="0" y="0"><statement name="HANDLER"><block type="music_set_built_in_speaker_enable" id="h}6!/0sx/?nI*{,Z=X(i"><value name="enabled"><shadow type="toggleOnOff" id="Oh~Q{~M4U*Ci7+3PhDG."><field name="on">true</field></shadow></value></block></statement></block><block type="device_button_event" id="90#2,hT3|A]b]Qi9Z~.d" x="357" y="21"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="OZz6|[d-j7;euQut7uIh"></block></statement></block><block type="device_pin_event" id="58mhJ|8R8cI,1a^ee07e" x="-285" y="100"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_leds" id="254Hz_@l3`DaAErR@:Au"><field name="LEDS">`
+        . . . . # 
+        # . . # . 
+        . # # . . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_pin_released" id="C+1ME[zaNo-r$6.n7Hkj" x="16" y="439"><field name="NAME">TouchPin.P0</field><statement name="HANDLER"><block type="playMelody" id="Yhhs#F+2-BE~+cX|jl4m"><value name="melody"><shadow type="melody_editor" id="aF[.~L8XJ0G20}Ks$MD:"><field name="melody">"C5 C5 C5 C5 C5 C5 C5 C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="4zFm,xbu_f/{,!8QVYoI"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">320</field></shadow></value><next><block type="device_show_leds" id=")ex=7_#D~4sf^tn.Jl~d"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id=";F3SX=QPqWdV!}:3tZ78"><value name="pause"><shadow type="timePicker" id="mT?!tm|iRV;|k*-6UX(K"><field name="ms">2000</field></shadow></value></block></next></block></next></block></statement></block></xml>
